@@ -1,32 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Table Example</title>
-</head>
-<body>
+    <style>
+      table {
+        /* border-collapse: collapse; */
+      }
+    </style>
+  </head>
+  <body>
     <h2>Building a random table</h2>
-    <hr>
+    <hr />
     <table border="1" width="100%">
-        <thead>
-            <tr>
-                <th rowspan="2">Day</th>
-                <th>Schedule</th>
-            </tr>
-            <tr>
-                <th>Schedule</th>
-            </tr>
-            <tr>
-                <th>Schedule</th>
-                <th>Topic</th>
-            </tr>
-        </thead>
+      <thead>
+        <tr>
+          <th rowspan="3">Day</th>
+          <th colspan="2">Schedule</th>
+          <!-- <th>Schedule</th> -->
+          <th rowspan="3">Topic</th>
+        </tr>
 
-        <tbody>
+        <tr></tr>
+        <tr>
+          <!-- <th>Day</th> -->
+          <th>Begin</th>
+          <th>End</th>
+          <!-- <th>Topic</th> -->
+        </tr>
 
-        </tbody>
+        <tr></tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Tuesday</td>
+          <td>07:00 a.m.</td>
+          <td>11:00 a.m.</td>
+          <td rowspan="5">
+            Computer Fundamentals
+            <ul>
+              <li>Hardware</li>
+              <li>OS</li>
+              <li>Storage</li>
+              <li>Data</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="6">Thursday</td>
+          <td rowspan="4">07:00 a.m.</td>
+          <td rowspan="4">07:50 a.m.</td>
+        </tr>
+
+        <tr></tr>
+
+        <tr></tr>
+
+        <tr></tr>
+
+        <tr>
+          <td>07:00 a.m.</td>
+          <td>07:50 a.m.</td>
+          <td rowspan="2">HTML CSS</td>
+        </tr>
+
+        <tr>
+          <td>07:00 a.m.</td>
+          <td>07:50 a.m.</td>
+        </tr>
+      </tbody>
     </table>
-</body>
+  </body>
 </html>
