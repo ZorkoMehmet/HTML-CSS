@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+    <style>
+        table{
+            width: 100%;
+
+        }
+        td{
+            text-align: left;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>TABLES</h1>
+    <hr />
+    <table border="1" width="100%">
+      <caption style="font-size: 2rem;">
+        Weekly Lessons
+      </caption>
+      <thead>
+        <tr>
+          <th>DAYS</th>
+          <th>LESSONS</th>
+          <th>GRADES</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Mondey</td>
+          <td>HTML</td>
+          <td style=text-align:center rowspan="6">🙏 100 🙏</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>CSS</td>
+          <!-- <td>100</td> -->
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>JavaScript</td>
+          <!-- <td>100</td> -->
+        </tr>
+        <tr>
+          <td rowspan="2">Thursday</td>
+          <td>React</td>
+          <!-- <td>100</td> -->
+        </tr>
+        <tr>
+          <!-- <td>Thursday</td> -->
+          <td>React-Native</td>
+          <!-- <td>100</td> -->
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>Solidity</td>
+          <!-- <td>100</td> -->
+        </tr>
+        <tr>
+          <td>Saturday-Free</td>
+          <td colspan="2" style="text-align:center">Empty</td>
+          <!-- <td>Empty</td> -->
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
