@@ -7,7 +7,6 @@
     <title>Table Example</title>
     <style>
       table {
-        /* border-collapse: collapse; */
       }
     </style>
   </head>
@@ -15,20 +14,18 @@
     <h2>Building a random table</h2>
     <hr />
     <table border="1" width="100%">
+      <caption style="caption-side:bottom">Table Example</caption>
       <thead>
         <tr>
           <th rowspan="3">Day</th>
           <th colspan="2">Schedule</th>
-          <!-- <th>Schedule</th> -->
           <th rowspan="3">Topic</th>
         </tr>
 
         <tr></tr>
         <tr>
-          <!-- <th>Day</th> -->
           <th>Begin</th>
           <th>End</th>
-          <!-- <th>Topic</th> -->
         </tr>
 
         <tr></tr>
@@ -39,7 +36,7 @@
           <td>Tuesday</td>
           <td>07:00 a.m.</td>
           <td>11:00 a.m.</td>
-          <td rowspan="5">
+          <td rowspan="2">
             Computer Fundamentals
             <ul>
               <li>Hardware</li>
@@ -50,21 +47,15 @@
           </td>
         </tr>
         <tr>
-          <td rowspan="6">Thursday</td>
-          <td rowspan="4">07:00 a.m.</td>
-          <td rowspan="4">07:50 a.m.</td>
+          <td rowspan="3">Thursday</td>
+          <td >07:00 a.m.</td>
+          <td >07:50 a.m.</td>
         </tr>
-
-        <tr></tr>
-
-        <tr></tr>
-
-        <tr></tr>
 
         <tr>
           <td>07:00 a.m.</td>
           <td>07:50 a.m.</td>
-          <td rowspan="2">HTML CSS</td>
+          <td rowspan="2">HTML <br> CSS</td>
         </tr>
 
         <tr>
