@@ -1,0 +1,39 @@
+#para3{
+    background-color:bisque
+}
+
+#para2{
+    margin:auto
+}
+.ortak{
+    background-color: beige;
+}
+#id3{
+    background-color: aqua;
+    border-style: dashed;
+    border-width: 5px;
+    border-radius: 20px;
+    border-color:darkblue;
+    padding: 20px;
+    margin: 40px;
+}
+.container{
+    border: 20px solid red;
+    padding: 20px
+    ;
+}
+
+#last{
+    color: brown;
+    border-color:blueviolet;
+    border-width: 70px;
+    border-radius: 20px;
+    background-color: darkgoldenrod;
+    padding: inherit;
+}
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
